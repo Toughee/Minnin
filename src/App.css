@@ -1,0 +1,22 @@
+li {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  display: inline;
+  float: left;
+  padding: 0.5rem 2rem 0rem 2rem;
+}
+
+ul {
+  background-color: #f00000;
+  list-style-type: none;
+  margin: 0rem;
+  padding: 1rem 2rem 5rem 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
