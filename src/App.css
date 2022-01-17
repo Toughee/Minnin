@@ -1,22 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Sulphur+Point&display=swap');
+
 li {
-  font-size: 1.5rem;
-  color: rgb(255, 255, 255);
-  display: inline;
-  float: left;
-  padding: 0.5rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    display: inline;
+    float: left;
+    padding: 0.5rem 2rem 0rem 2rem;
+    font-family: 'Sulphur Point', sans-serif;
 }
 
 ul {
-  background-color: #f00000;
-  list-style-type: none;
-  margin: 0rem;
-  padding: 1rem 2rem 5rem 2rem;
+    background-color: #f00000;
+    list-style-type: none;
+    margin: 0rem;
+    padding: 1rem 2rem 5rem 2rem;
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.MenuIcons {
+    font-size: 3rem;
+    margin: 0.5rem;
+    color: #ffffff;
+}
+
+/*
+----------------------------------------------------------
+                      Dashboard style
+----------------------------------------------------------
+*/
+
+input {
+    border-top: 0.0001px solid #ddd;
+    border-right: 0.0001px solid #ddd;
+    border-left: 0.0001px solid #ddd;
+    border-bottom: 1px solid #000000;
+    font-size: 1.5rem;
+    background-color: transparent;
+    height: 5rem;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.YourPostStyle {
+    color: #ffffff;
+    padding: 2rem 7rem 2rem 7rem;
+    margin: 2rem;
+    background-color: #f00000;
+    align-items: center;
+    box-shadow: 10px 10px 5px #5f5f5f7a;
+
+    justify-content: space-between;
+}
+
+.FollowerTabStyle {
+    color: #ffffff;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 1rem;
+    float: left;
+    background-color: #f00000;
+
+    box-shadow: 10px 10px 5px #5f5f5f7a;
+}
+
+.LikeStyle {
+    background: transparent;
+    color: #ffffff;
+    /* border-top: 0.0001px solid #f00000;
+    border-right: 0.0001px solid #f00000;
+    border-left: 0.0001px solid #f00000;
+    border-bottom: 1px solid #f00000; */
+    /* border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff; */
+}
+
+.LikeStyle,
+.personalIdStyle {
+    font-size: 2rem;
+    margin: 0rem 5rem 0rem 5rem;
+}
+
+/*
+----------------------------------------------------------
+                      Fonts style
+----------------------------------------------------------
+*/
+
+.PostStyle {
+    font-size: 3rem;
+    margin: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.FollowerId {
+    font-size: 2rem;
+    margin: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2,
+.PageTitle {
+    font-size: 3.2rem;
+    margin: 0rem;
+    font-family: 'Quicksand', sans-serif;
 }

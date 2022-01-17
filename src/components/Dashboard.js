@@ -1,18 +1,35 @@
-import React from "react";
+import React from 'react'
+import PostCreateBar from './PostCreateBar'
+import YourPost from './YourPost'
 
-export default class Dashboard extends React.Component {
-  render() {
+function Dashboard() {
+    const [posts, setPosts] = React.useState([])
+
+    const createPost = (text) => {
+        const newPost = [...posts, { text }]
+        setPosts(newPost)
+    }
+
+    // delete your post
+    // const deletePost
+
+    //like post
+    // const LikeOption
+    //
+    //
+    //
+
     return (
-      <div className="App">
-        <h2>Dashboard section</h2>
-
-        <form>
-          <input
-            placeholder="create a new post"
-            aria-label="New post section"
-          />
-        </form>
-      </div>
-    );
-  }
+        <div className="App">
+            <h2 classname="PageTitle">Dashboard section</h2>
+            <PostCreateBar createPost={createPost} />
+            <div>
+                {posts.map((post, id) => (
+                    <YourPost key={id} post={post} />
+                ))}
+            </div>
+        </div>
+    )
 }
+
+export default Dashboard
