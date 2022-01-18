@@ -21,7 +21,9 @@ function PostCreateBar({ createPost }) {
                 onChange={(e) => setValue(e.target.value)}
                 aria-label="New post section"
             />
-            <button type="submit">Send</button>
+            <button className="SendOpt" type="submit">
+                Send
+            </button>
         </form>
     )
 }
