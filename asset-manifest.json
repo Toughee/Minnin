@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Minnin/static/css/main.2f54db8e.css",
-    "main.js": "/Minnin/static/js/main.6b03ed07.js",
+    "main.js": "/Minnin/static/js/main.6de57723.js",
     "static/js/787.24c4ee06.chunk.js": "/Minnin/static/js/787.24c4ee06.chunk.js",
     "index.html": "/Minnin/index.html",
     "main.2f54db8e.css.map": "/Minnin/static/css/main.2f54db8e.css.map",
-    "main.6b03ed07.js.map": "/Minnin/static/js/main.6b03ed07.js.map",
+    "main.6de57723.js.map": "/Minnin/static/js/main.6de57723.js.map",
     "787.24c4ee06.chunk.js.map": "/Minnin/static/js/787.24c4ee06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f54db8e.css",
-    "static/js/main.6b03ed07.js"
+    "static/js/main.6de57723.js"
   ]
 }
