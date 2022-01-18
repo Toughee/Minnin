@@ -4,8 +4,9 @@ import Dashboard from './components/Dashboard'
 import FollowersTab from './components/FollowersTab'
 
 import { RiKeyboardBoxLine } from 'react-icons/ri'
-
 import { HiUserGroup } from 'react-icons/hi'
+
+import Minnin_logo from './img/Minnin_logo.png'
 
 import './App.css'
 
@@ -17,9 +18,13 @@ function App() {
                     <ul>
                         <li>
                             <span className="MenuIcons">
-                                <RiKeyboardBoxLine></RiKeyboardBoxLine>
+                                <img
+                                    className="MenuIcons"
+                                    src={Minnin_logo}
+                                    alt="logo"
+                                />
                             </span>
-                            Minnin
+                            Home
                         </li>
 
                         <Link to="/Dashboard">

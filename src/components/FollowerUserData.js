@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FollowerIndex = [
+const FollowerUserData = [
     {
         id: 1,
         username: 'Thinlin',
@@ -53,4 +53,4 @@ const FollowerIndex = [
     },
 ]
 
-export default FollowerIndex
+export default FollowerUserData

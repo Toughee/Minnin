@@ -1,3 +1,6 @@
+
+![App logo](./public/img/Minnin_logo.png)
+
 # Minnin
 
 Social media mockup app

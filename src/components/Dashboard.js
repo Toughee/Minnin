@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PostCreateBar from './PostCreateBar'
 import YourPost from './YourPost'
 
@@ -9,6 +9,8 @@ function Dashboard() {
         const newPost = [...posts, { text }]
         setPosts(newPost)
     }
+
+    // const deletePost
 
     // delete your post
     // const deletePost
@@ -21,7 +23,7 @@ function Dashboard() {
 
     return (
         <div className="App">
-            <h2 classname="PageTitle">Dashboard section</h2>
+            <h2 className="PageTitle">Dashboard section</h2>
             <PostCreateBar createPost={createPost} />
             <div>
                 {posts.map((post, id) => (
