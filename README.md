@@ -38,4 +38,4 @@ Proof of concept: This app was created as an example of React state, regular exp
 
 - [ ] Implement static JSON data of fake users into app
 - [ ] Add working like button for posts
-- [ ] Add local storage for app to save recently made posts after page refresh
+- [ ] Add session storage for app to save recently made posts after for each person using Minnin
